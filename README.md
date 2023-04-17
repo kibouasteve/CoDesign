@@ -1,2 +1,0 @@
-# CoDesign
-Projet CoDesign 
