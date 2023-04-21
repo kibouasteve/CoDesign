@@ -59,6 +59,7 @@
 #include "xtime_l.h"
 #include "xgpio.h"
 #include "xparameters.h"
+#include "xcalculatelayer2.h"
 
 #define IMGWIDTH 29
 #define IMGHEIGHT 29
@@ -182,12 +183,12 @@ XTime t0,t1,t2,t3,t4,t5;
 	};
 
 void calculateLayer1(float* input, float* Layer1_Neurons_CPU);
-void calculateLayer2(float* Layer1_Neurons_CPU, float* Layer1_Weights_CPU, float* Layer2_Neurons_CPU);
+//void calculateLayer2(float* Layer1_Neurons_CPU, float* Layer1_Weights_CPU, float* Layer2_Neurons_CPU);
 void calculateLayer3(float* Layer2_Neurons_CPU, float* Layer2_Weights_CPU, float* Layer3_Neurons_CPU);
 void calculateLayer4(float* Layer3_Neurons_CPU, float* Layer3_Weights_CPU, float* Layer4_Neurons_CPU);
 void calculateLayer5(float* Layer4_Neurons_CPU, float* Layer4_Weights_CPU, double* Layer5_Neurons_CPU);
 
-XGpio ip;
+XCalculatelayer2 ip;
 
 void InitHostMem(float *Layer1_Weights_CPU,float *Layer2_Weights_CPU, float *Layer3_Weights_CPU,float *Layer4_Weights_CPU);
 
@@ -195,18 +196,25 @@ int main()
 {
     init_platform();
 
-    //XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
-    int res =  XGpio_Initialize(&ip, XPAR_AXI_GPIO_0_DEVICE_ID);
-    XGpio_SetDataDirection(&ip, 1,0xFFFFFFFF);
+    int res =   XCalculatelayer2_Initialize(&ip, XPAR_CALCULATELAYER2_0_DEVICE_ID);
 
     print("Début test\n\r");
-
+    printf("res = %d\n",res);
     InitHostMem(Layer1_Weights_CPU,Layer2_Weights_CPU,Layer3_Weights_CPU,Layer4_Weights_CPU);
 
     	XTime_GetTime(&t0);
         calculateLayer1(Input, Layer1_Neurons_CPU);
         XTime_GetTime(&t1);
-        calculateLayer2(Layer1_Neurons_CPU, Layer1_Weights_CPU, Layer2_Neurons_CPU);
+        ///////////////////////////////////////////////////////////////////////////
+        //calculateLayer2(Layer1_Neurons_CPU, Layer1_Weights_CPU, Layer2_Neurons_CPU);
+        XCalculatelayer2_Write_Layer1_Neurons_CPU_Words(&ip, 0, Layer1_Neurons_CPU, IMGWIDTH*IMGHEIGHT);
+        XCalculatelayer2_Write_Layer1_Weights_CPU_Words(&ip, 0, Layer1_Weights_CPU, (5*5+1)*6);
+        XCalculatelayer2_Start(&ip);
+        while(! XCalculatelayer2_IsDone(&ip)){
+
+        }
+        XCalculatelayer2_Read_Layer2_Neurons_CPU_Words(&ip,0, Layer2_Neurons_CPU,6*13*13);
+        ////////////////////////////////////////////////////////////////////////////
         XTime_GetTime(&t2);
     	calculateLayer3(Layer2_Neurons_CPU, Layer2_Weights_CPU, Layer3_Neurons_CPU);
     	XTime_GetTime(&t3);
@@ -227,7 +235,7 @@ int main()
     		}
     	}
     	u32 mask = indexmax;
-    	XGpio_DiscreteWrite(&ip, 1, mask);
+    	//XGpio_DiscreteWrite(&ip, 1, mask);
 
     	//XGpio_SetDataDirection(XGpio *InstancePtr, unsigned Channel,u32 DirectionMask);
 
@@ -249,7 +257,7 @@ void calculateLayer1(float* input, float* Layer1_Neurons_CPU){
 	memcpy(Layer1_Neurons_CPU, input, IMGWIDTH*IMGHEIGHT*sizeof(float));
 }
 
-void calculateLayer2(float* Layer1_Neurons_CPU, float* Layer1_Weights_CPU, float* Layer2_Neurons_CPU){
+/*void calculateLayer2(float* Layer1_Neurons_CPU, float* Layer1_Weights_CPU, float* Layer2_Neurons_CPU){
 		float somme;
 	int i,j,k,m,n;
 	for(i=0;i<6;i++)
@@ -261,7 +269,7 @@ void calculateLayer2(float* Layer1_Neurons_CPU, float* Layer1_Weights_CPU, float
 						somme += Layer1_Weights_CPU[26*i+5*m+n+1] * Layer1_Neurons_CPU[29*(m+2*j)+n+2*k];
 				Layer2_Neurons_CPU[13*13*i+13*j+k] = (float) SIGMOID(somme);
 			}
-}
+}*/
 
 void calculateLayer3(float* Layer2_Neurons_CPU, float* Layer2_Weights_CPU, float* Layer3_Neurons_CPU){
 	float somme;

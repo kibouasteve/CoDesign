@@ -15,7 +15,9 @@ src/helloworld.o src/helloworld.o: ../src/helloworld.c ../src/platform.h \
  ../../AppCoDesign_bsp/ps7_cortexa9_0/include/xpseudo_asm.h \
  ../../AppCoDesign_bsp/ps7_cortexa9_0/include/xreg_cortexa9.h \
  ../../AppCoDesign_bsp/ps7_cortexa9_0/include/xpseudo_asm_gcc.h \
- ../../AppCoDesign_bsp/ps7_cortexa9_0/include/xparameters.h
+ ../../AppCoDesign_bsp/ps7_cortexa9_0/include/xparameters.h \
+ ../../AppCoDesign_bsp/ps7_cortexa9_0/include/xcalculatelayer2.h \
+ ../../AppCoDesign_bsp/ps7_cortexa9_0/include/xcalculatelayer2_hw.h
 
 ../src/platform.h:
 
@@ -58,3 +60,7 @@ src/helloworld.o src/helloworld.o: ../src/helloworld.c ../src/platform.h \
 ../../AppCoDesign_bsp/ps7_cortexa9_0/include/xpseudo_asm_gcc.h:
 
 ../../AppCoDesign_bsp/ps7_cortexa9_0/include/xparameters.h:
+
+../../AppCoDesign_bsp/ps7_cortexa9_0/include/xcalculatelayer2.h:
+
+../../AppCoDesign_bsp/ps7_cortexa9_0/include/xcalculatelayer2_hw.h:
