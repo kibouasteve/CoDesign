@@ -65,8 +65,8 @@ paralléliser(ces endroits devront être voraces en terme de puissance de calcul
   La compilation nous donne le résultat suivant:
 
 <p>
-  <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/1b482abb-6018-4e0f-a5f6-ce6becf29f57 width = 200 height=200 p align="left">
-  <img src=https://github.com/kibouasteve/CoDesign/assets/71629695/1e8140ca-caa4-4e9b-b7ee-eb518ce68cc7 p align="right">
+  <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/1b482abb-6018-4e0f-a5f6-ce6becf29f57 width = 200 height=200 >
+  <img src=https://github.com/kibouasteve/CoDesign/assets/71629695/1e8140ca-caa4-4e9b-b7ee-eb518ce68cc7 width = 200 height=200 >
 </p>
 <br>  
 <br>
