@@ -6,7 +6,7 @@
 <br>
 <br>
 <h2>
-  <h2 align ="center">Année scolaire: 2022
+  <h2 align ="center">Année scolaire: 2022 - 2023
   <h2 align ="center">Spécialité et classe: EISE4
 </h2>
   
