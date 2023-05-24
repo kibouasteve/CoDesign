@@ -26,8 +26,10 @@
 <br>
 <br>
 <strong>Objectif secondaire: </strong>Mettre toutes les couches en LENET dans le FPGA
-Règles (imposées par l'encadreur): 
-  - Tous les poids doivent être dans le coeur (créer une fonction pour tout calculer) 
+<br>
+Règles (imposées par l'encadreur):
+<br>
+&ensp - Tous les poids doivent être dans le coeur (créer une fonction pour tout calculer) 
   - Fréquence: Minimum 100 MHz
   - Latence et intervalle: Gain sur le temps de latence
   - Surface(LUT): Optimiser en surface
