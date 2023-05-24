@@ -56,7 +56,9 @@ paralléliser(ces endroits devront être voraces en terme de puissance de calcul
  
  On nous fournit ici la fonction main et  qui contient plusieurs fonctions. On peut citer entre autres:
   - calculateLayer1,calculateLayer2,calculateLayer3,calculateLayer4,calculateLayer5: ces fonctions permettent d'effectuer les différents calculs importants dans les couches. C'est grâce à leur traitement qu'on peut obtenir le numéro à la fin.
+  
   - InitHostMem, readIn et output: Cette fonction permet d'initialiser les poids des 4 premières couches ainsi que les connexions entre celles-ci en lisant dans les fichiers lw1.wei, lw2.wei, lw3.wei et lw4.wei. 
+  
   - Dans le main, après l'utilisation des 5 calculateLayer, on utilise une boucle for pour déterminer le chiffre pausiblement identifié par la structure. 
 <br> 
   
