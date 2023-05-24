@@ -10,7 +10,7 @@
   <h2 align ="center">Spécialité et classe: EISE4
 </h2>
   
-# CoDesign
+# Projet CoDesign
 Projet CoDesign 
 mettre toutes les couches en LENET dans le FPGA
 Règle: 
