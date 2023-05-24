@@ -11,12 +11,11 @@
 </h2>
   
 # Projet CoDesign
-Projet CoDesign 
-mettre toutes les couches en LENET dans le FPGA
-Règle: 
+Objectif secondaire: Mettre toutes les couches en LENET dans le FPGA
+Règles (imposées par l'encadreur): 
   - Tous les poids doivent être dans le coeur (créer une fonction pour tout calculer) 
-  - Minimum 100 MHz
-  - Gain sur le temps de latence
-  - Optimiser en surface
+  - Fréquence: Minimum 100 MHz
+  - Latence et intervalle: Gain sur le temps de latence
+  - Surface(LUT): Optimiser en surface
 
 
