@@ -63,7 +63,7 @@ paralléliser(ces endroits devront être voraces en terme de puissance de calcul
 <br> 
   
   La compilation nous donne le résultat suivant:
-<br>
+
   <p>
   <img src=https://github.com/kibouasteve/CoDesign/assets/71629695/1e8140ca-caa4-4e9b-b7ee-eb518ce68cc7 >
 </p>
