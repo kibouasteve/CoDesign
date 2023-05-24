@@ -68,7 +68,7 @@ paralléliser(ces endroits devront être voraces en terme de puissance de calcul
   <img src=https://github.com/kibouasteve/CoDesign/assets/71629695/1e8140ca-caa4-4e9b-b7ee-eb518ce68cc7 >
 </p>
 <br>
-  
+Ici, la structure a reconnu le chiffre 2 mis à son entrée.  
 <h2>
   <h2 align ="center"> Etape 2 : Profilage sur le FPGA et réalisation de l'IP
 </h2>
