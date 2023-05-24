@@ -25,9 +25,6 @@
 <br>
 <br>
 <br>
-<br>
-<br>
-<br>
   
 <h2>
   <h2 align ="center"> Objectif
