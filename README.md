@@ -44,13 +44,13 @@ paralléliser(ces endroits devront être voraces en terme de puissance de calcul
 <br>
 <ins>Règles</ins> (imposées par l'encadreur):
 <br>
-&nbsp- Tous les poids doivent être dans le coeur (créer une fonction pour tout calculer)
+&nbsp - Tous les poids doivent être dans le coeur (créer une fonction pour tout calculer)
 <br>
-&nbsp- Fréquence: Minimum 100 MHz
+&nbsp - Fréquence: Minimum 100 MHz
 <br>
-&nbsp- Latence et intervale: Gain sur le temps de latence
+&nbsp - Latence et intervale: Gain sur le temps de latence
 <br>
-&nbsp- Surface(LUT): Optimiser en surface
+&nbsp - Surface(LUT): Optimiser en surface
 <br>
 
 <h2>
