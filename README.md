@@ -45,13 +45,28 @@
 <br>
 &nbsp- Fréquence: Minimum 100 MHz
 <br>
-&nbsp- Latence et intervalle: Gain sur le temps de latence
+&nbsp- Latence et intervale: Gain sur le temps de latence
 <br>
 &nbsp- Surface(LUT): Optimiser en surface
 <br>
 
 <h2>
-  <h2 align ="center"> Etape 1
-</h2> 
-  que faire?
+  <h2 align ="center"> Etape 1 : Mesure des intervales
+</h2>
+<br>
+  
+<h2>
+  <h2 align ="center"> Etape 2 : Profilage sur le FPGA et réalisation de l'IP
+</h2>
+<br>
+  
+<h2>
+  <h2 align ="center"> Etape 3 : High Level Synthesis - HLS
+</h2>
+<br>
+  
+<h2>
+  <h2 align ="center"> Etape 4 : Objectif secondaire
+</h2>
+<br>
 
