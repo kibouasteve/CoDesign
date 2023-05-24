@@ -33,11 +33,13 @@
 &nbsp Notre objectif lors de ce projet était de réaliser un profil d’exécution et une analyse permettant d’identifier les endroits de <ins>LeNet</ins> à
 paralléliser(ces endroits devront être voraces en terme de puissance de calcul et se prêter à une parallélisation efficace).
 <br>
+<br>
 <strong><ins>Qu'est-ce que LeNet?</ins></strong>
 <br>
 &nbsp Il s'agit d'une structure de réseau de neuronnes proposée par Yann LeCun en 1998. Cette structure implémente des neurones artificiels pouvant servir dans le traitement d'image.
 <br>
 <br>
+  
 <strong><ins>Objectif secondaire:</ins> </strong>Mettre toutes les couches en LENET dans le FPGA
 <br>
 <ins>Règles</ins> (imposées par l'encadreur):
