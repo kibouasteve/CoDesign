@@ -74,6 +74,7 @@ Ici, la structure a reconnu le chiffre 2 mis à son entrée.
 Dans la suite, on utilise l'option -pg du compilateur gcc pour faire un profil d’exécution. Cela nous permet d'identifier les fonctions chronophages, c'est-à-dire celles qui nécessitent le plus de temps.
 On obtient comme résultat:
 <br>
+<br>
 <p>
   <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/40ca7fdb-ae20-4c61-ac23-78dcea659854>
 </p>
