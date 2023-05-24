@@ -9,7 +9,7 @@
 <h2 align ="left">Année scolaire: 2022                                                               Spécialité et classe: EISE4
 </h2>
   
-# CoDesign
+# CoDesig
 Projet CoDesign 
 mettre toutes les couches en LENET dans le FPGA
 Règle: 
