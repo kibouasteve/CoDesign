@@ -30,7 +30,8 @@
 <h2>
   <h2 align ="center"> Objectif
 </h2> 
-&nbsp Notre objectif lors de ce projet était d'implanter LeNEt dans notre FPGA.
+&nbsp Notre objectif lors de ce projet était de  desire réaliser un profil d’exécution et une analyse permettant d’identifier les endroits de LeNet à
+paralléliser, ces endroits devront être voraces en terme de puissance de calcul et se prêter à une parallélisation efficace.
 <br>
 <strong><ins>Qu'est-ce que LeNet?</ins></strong>
 <br>
