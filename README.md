@@ -2,7 +2,9 @@
 <img src=https://github.com/kibouasteve/CoDesign/assets/71629695/ee78a014-0f7c-4ffa-82ed-bfce217817c7  p align ="right">
 
 <br />
-<br />Année scolaire: 2022                                                                                   Spécialité et classe: EISE4
+<br />
+#Année scolaire: 2022 
+#Spécialité et classe: EISE4
 
 # CoDesign
 Projet CoDesign 
