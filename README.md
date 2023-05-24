@@ -29,9 +29,13 @@
 <br>
 <ins>Règles</ins> (imposées par l'encadreur):
 <br>
- - Tous les poids doivent être dans le coeur (créer une fonction pour tout calculer) 
-  - Fréquence: Minimum 100 MHz
-  - Latence et intervalle: Gain sur le temps de latence
-  - Surface(LUT): Optimiser en surface
+&nbsp- Tous les poids doivent être dans le coeur (créer une fonction pour tout calculer)
+<br>
+&nbsp- Fréquence: Minimum 100 MHz
+<br>
+&nbsp- Latence et intervalle: Gain sur le temps de latence
+<br>
+&nbsp- Surface(LUT): Optimiser en surface
+<br>
 
 
