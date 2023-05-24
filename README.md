@@ -69,7 +69,8 @@ paralléliser(ces endroits devront être voraces en terme de puissance de calcul
   <img src=https://github.com/kibouasteve/CoDesign/assets/71629695/1e8140ca-caa4-4e9b-b7ee-eb518ce68cc7 width = 200 height=200 >
 </p>
 <br>   
-Ici, la structure a reconnu le chiffre 2 mis à son entrée.  
+Ici, la structure a reconnu le chiffre 2 mis à son entrée. 
+<br>  
 Dans la suite, on utilise l'option -pg du compilateur gcc pour faire un profil d’exécution. Cela nous permet d'identifier les fonctions chronophages, c'est-à-dire celles qui nécessitent le plus de temps.
 On obtient comme résultat:
   
