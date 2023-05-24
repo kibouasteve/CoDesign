@@ -6,17 +6,16 @@
 <br>
 <br>
 <h2>
-  <h2 align ="center">Année scolaire: 2022 - 2023
-  <h2 align ="center">Spécialité et classe: EISE4
+  <h2 align ="center">Année scolaire: 2022 - 2023 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Spécialité et classe: EISE4
 </h2>
   
 # Projet CoDesign
 <h2>
   <h2 align ="center"> Objectif
 </h2> 
-<&nbsp> Notre objectif lors de ce projet était d'implanter LeNEt dans notre FPGA. 
+&nbsp Notre objectif lors de ce projet était d'implanter LeNEt dans notre FPGA. 
 Qu'est-ce que LeNet? 
-  Il s'agit d'une structure de réseau de neuronnes proposée par Yann LeCun en 1998. Cette structure implémente des neurones artificiels pouvant servir dans le traitement d'image.
+&nbsp Il s'agit d'une structure de réseau de neuronnes proposée par Yann LeCun en 1998. Cette structure implémente des neurones artificiels pouvant servir dans le traitement d'image.
   
 Objectif secondaire: Mettre toutes les couches en LENET dans le FPGA
 Règles (imposées par l'encadreur): 
