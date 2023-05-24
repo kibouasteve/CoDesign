@@ -18,10 +18,12 @@
 <h2>
   <h2 align ="center"> Objectif
 </h2> 
-&nbsp Notre objectif lors de ce projet était d'implanter LeNEt dans notre FPGA. 
-Qu'est-ce que LeNet? 
+&nbsp Notre objectif lors de ce projet était d'implanter LeNEt dans notre FPGA.
+<br>
+Qu'est-ce que LeNet?
+<br>
 &nbsp Il s'agit d'une structure de réseau de neuronnes proposée par Yann LeCun en 1998. Cette structure implémente des neurones artificiels pouvant servir dans le traitement d'image.
-  
+<br>  
 Objectif secondaire: Mettre toutes les couches en LENET dans le FPGA
 Règles (imposées par l'encadreur): 
   - Tous les poids doivent être dans le coeur (créer une fonction pour tout calculer) 
