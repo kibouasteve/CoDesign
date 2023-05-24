@@ -5,11 +5,11 @@
 
 <br />
 <br />
-<h2>
-<h2 align ="left"> Année scolaire: 2022 
-
-<h2 align ="right"> Spécialité et classe: EISE4
-</h2>
+<h3>
+<h3 align ="left"> Année scolaire: 2022 
+<h3 align ="right"> Spécialité et classe: EISE4
+</h3>
+  
 # CoDesign
 Projet CoDesign 
 mettre toutes les couches en LENET dans le FPGA
