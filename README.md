@@ -20,7 +20,7 @@
 </h2> 
 &nbsp Notre objectif lors de ce projet était d'implanter LeNEt dans notre FPGA.
 <br>
-** Qu'est-ce que LeNet? **
+<strong>Qu'est-ce que LeNet?</strong>
 <br>
 &nbsp Il s'agit d'une structure de réseau de neuronnes proposée par Yann LeCun en 1998. Cette structure implémente des neurones artificiels pouvant servir dans le traitement d'image.
 <br>
