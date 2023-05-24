@@ -3,8 +3,7 @@
 
 <br />
 <br />
-Année scolaire: 2022                                                                                   
-<p align="right">Spécialité et classe: EISE4
+Année scolaire: 2022                                                                                   Spécialité et classe: EISE4
 
 # CoDesign
 Projet CoDesign 
