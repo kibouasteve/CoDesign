@@ -5,9 +5,9 @@
 
 <br>
 <br>
-<h2>
-  <h2 align ="center">Année scolaire: 2022 - 2023 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Spécialité et classe: EISE4
-</h2>
+<h1>
+  <h1 align ="center">Année scolaire: 2022 - 2023 &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp Spécialité et classe: EISE4
+</h1>
   
 # Projet CoDesign
 <h2>
