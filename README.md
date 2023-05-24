@@ -1,3 +1,7 @@
+![image](https://github.com/kibouasteve/CoDesign/assets/71629695/5523b2d0-aeb7-485c-8bdd-dbb5c23ea22e)
+
+
+
 # CoDesign
 Projet CoDesign 
 mettre toutes les couches en LENET dans le FPGA
