@@ -20,16 +20,16 @@
 </h2> 
 &nbsp Notre objectif lors de ce projet était d'implanter LeNEt dans notre FPGA.
 <br>
-<strong>Qu'est-ce que LeNet?</strong>
+<strong><ins>Qu'est-ce que LeNet?</ins></strong>
 <br>
 &nbsp Il s'agit d'une structure de réseau de neuronnes proposée par Yann LeCun en 1998. Cette structure implémente des neurones artificiels pouvant servir dans le traitement d'image.
 <br>
 <br>
-<strong>Objectif secondaire: </strong>Mettre toutes les couches en LENET dans le FPGA
+<strong><ins>Objectif secondaire:</ins> </strong>Mettre toutes les couches en LENET dans le FPGA
 <br>
-Règles (imposées par l'encadreur):
+<ins>Règles</ins> (imposées par l'encadreur):
 <br>
-&ensp - Tous les poids doivent être dans le coeur (créer une fonction pour tout calculer) 
+ - Tous les poids doivent être dans le coeur (créer une fonction pour tout calculer) 
   - Fréquence: Minimum 100 MHz
   - Latence et intervalle: Gain sur le temps de latence
   - Surface(LUT): Optimiser en surface
