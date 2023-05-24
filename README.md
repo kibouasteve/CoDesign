@@ -11,6 +11,9 @@
 </h2>
   
 # Projet CoDesign
+<h2>
+  <h2 align ="center"> Objectif
+</h2> 
 Objectif secondaire: Mettre toutes les couches en LENET dans le FPGA
 Règles (imposées par l'encadreur): 
   - Tous les poids doivent être dans le coeur (créer une fonction pour tout calculer) 
