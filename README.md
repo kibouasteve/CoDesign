@@ -5,6 +5,7 @@
 
 <br>
 <br>
+
 <h4>
   <h4 align ="center">Année scolaire: 2022 - 2023    
   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
@@ -14,6 +15,13 @@
 <h1>
  <h1 align ="center">Projet CoDesign
 </h1>
+ 
+<p>
+   <img src=https://github.com/kibouasteve/CoDesign/assets/71629695/6517e3ec-59d0-44dd-9ef3-2836e5f5c4d5 p align="center">
+</p>
+
+<br>
+<br>
   
 <h2>
   <h2 align ="center"> Objectif
@@ -38,6 +46,8 @@
 &nbsp- Surface(LUT): Optimiser en surface
 <br>
 
- # bonjour:
+<h2>
+  <h2 align ="center"> Etape 1
+</h2> 
   que faire?
 
