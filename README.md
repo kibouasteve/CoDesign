@@ -3,8 +3,8 @@
 <img src=https://github.com/kibouasteve/CoDesign/assets/71629695/ee78a014-0f7c-4ffa-82ed-bfce217817c7  p align ="right">
 </p>
 
-<br />
-<br />
+<br>
+<br>
 <p>
 <h2 align ="left">Année scolaire: 2022
 <h2 align ="right">Spécialité et classe: EISE4
