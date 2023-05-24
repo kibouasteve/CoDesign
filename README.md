@@ -3,7 +3,10 @@
 </p>
 
 <br />
-<p align="left">Année scolaire: 2022  <p align ="right">Spécialité et classe: EISE4
+<br />
+<p align="left">Année scolaire: 2022
+</p>
+<p align ="right">Spécialité et classe: EISE4
 </p>
 
 # CoDesign
