@@ -20,7 +20,7 @@
   
 <p>
   &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
-  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
   <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/6517e3ec-59d0-44dd-9ef3-2836e5f5c4d5 p align="center">
 </p>
   
