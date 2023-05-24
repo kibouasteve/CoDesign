@@ -70,6 +70,8 @@ paralléliser(ces endroits devront être voraces en terme de puissance de calcul
 </p>
 <br>   
 Ici, la structure a reconnu le chiffre 2 mis à son entrée.  
+Dans la suite, on utilise l'option -pg du compilateur gcc pour faire un profil d’exécution. Cela nous permet d'identifier les fonctions chronophages, c'est-à-dire celles qui nécessitent le plus de temps.
+On obtient comme résultat:
   
 <h2>
   <h2 align ="center"> Etape 2 : Profilage sur le FPGA et réalisation de l'IP
