@@ -139,13 +139,20 @@ L'exécution et compilation du code nous permet d'avoir le résulat précédemme
   <h2 align ="center"> Etape 3 : High Level Synthesis - HLS
 </h2>
 <br>
-Ici, on va maintenant créer avec Vivado Hls une IP-AXI materielle pour la deuxième couche(Layer2). On va créer un fichier à part pour cette couche et y mettre le calculateLayer2. Puis on va le rajouter dans la partie source. Pour ce qui est des autres fichiers, il faut les mettre dans le Test Bench. Dans Project settings, on va cliquer sur synthesis et rajouter notre fichier contenant le calculateLayer2 comme Top function. On peut lancer Run C simulation pour être sûr que tout fonctionne. On va aussi lancer run C synthesis et observer ceci:
+Ici, on va maintenant créer avec Vivado Hls une IP-AXI materielle pour la deuxième couche(Layer2). On va créer un fichier à part pour cette couche et y mettre le calculateLayer2. Puis on va le rajouter dans la partie source. Pour ce qui est des autres fichiers, il faut les mettre dans le Test Bench. 
 <br>
 <br>
 <p>
  <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/63c6e665-3abc-4ec2-8f56-ebae79f3bf66 >
 </p>
 <br> 
+Dans Project settings, on va cliquer sur synthesis et rajouter notre fichier contenant le calculateLayer2 comme Top function. On peut lancer Run C simulation pour être sûr que tout fonctionne. On va aussi lancer run C synthesis et observer ceci:
+<br>
+<br>
+<p>
+ <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/63c6e665-3abc-4ec2-8f56-ebae79f3bf66 >
+</p>
+<br>
 <h2>
   <h2 align ="center"> Etape 4 : Objectif secondaire
 </h2>
