@@ -150,7 +150,7 @@ Dans Project settings, on va cliquer sur synthesis et rajouter notre fichier con
 <br>
 <br>
 <p>
- <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/63c6e665-3abc-4ec2-8f56-ebae79f3bf66 >
+ <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/4d7a90ad-b799-4b5c-97f2-acd6f6570eb6 >
 </p>
 <br>
 <h2>
