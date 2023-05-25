@@ -115,11 +115,11 @@ Les étapes à sa suivre pour arriver à SDK sont les suivantes:
   
   - Générer output products (permet de générer le produit (soit simulation, design,...)
   
-  - Cliquer sur Generate Bitstream pour faire la synthèse, le mapping et routing (connexion) dans le FPGA et enfin l'implémentation.
+  - Cliquer sur Generate Bitstream pour faire la synthèse, le mapping et routing (connexion) dans le FPGA et enfin    l'implémentation.
   
-  -Cliquer sur Export puis Export Hardware et cocher l'option include Bitstream
+  - Cliquer sur Export puis Export Hardware et cocher l'option include Bitstream
   
-  -Enfin Cliquer sur File puis lancer SDK (il convient de noter que pour les nouvelles versions, il s'agit de Vitis et que nous sommes sur une ancienne version de vivado)
+  - Enfin Cliquer sur File puis lancer SDK (il convient de noter que pour les nouvelles versions, il s'agit de Vitis et que nous sommes sur une ancienne version de vivado)
 <br>  
 L'exécution et compilation du code nous permet d'avoir le résulat précédemment observé dans SDK:
 <br>
