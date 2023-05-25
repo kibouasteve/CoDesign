@@ -98,8 +98,8 @@ Pour ce qui est de la couche qui va nécessier notre attention, nous avons pris 
 Dans un premier temps, nous allons exécuter le code sur ARM. Pour se faire, on va instancier sur Vivado le processeur puis utiliser l'environnement SDK pour développer le code qui sera utilisé sur le processeur. Ensuite, nous afficherons le résultat reconnu par la structure sur des LEDS. Nous utiliserons ici la carte ZedBoard comprenant le FPGA Zynq7000. Le code se trouve dans ce repository. L'exécution et compilation du code nous permet d'avoir le résulat précédemment observé:
 <br>
 <br>
-<p>  
- <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/ddcaefb5-113f-43dc-9fed-ae180fb20650 >
+<p>
+ <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/5b7e5c97-cce2-48d6-8e0f-fc5f3eb550a0 >
 </p>
 <br> 
   
