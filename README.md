@@ -119,7 +119,7 @@ Les étapes à sa suivre pour arriver à SDK sont les suivantes:
   
   - Cliquer sur Export puis Export Hardware et cocher l'option include Bitstream
   
-  - Enfin Cliquer sur File puis lancer SDK (il convient de noter que pour les nouvelles versions, il s'agit de Vitis et que nous soDans mmes sur une ancienne version de vivado)
+  - Enfin Cliquer sur File puis lancer SDK (il convient de noter que pour les nouvelles versions, il s'agit de Vitis et que nous sommes sur une ancienne version de vivado)
 <br>  
 L'exécution et compilation du code nous permet d'avoir le résulat précédemment observé dans SDK:
 <br>
