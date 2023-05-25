@@ -178,11 +178,11 @@ On va ensuite lancer SDK et faire les modifications nécessaires. On aura à uti
   
 On obtient ceci:
 <br>
-<br>
 <p>
  <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/130039f7-93b1-4af8-9398-9e36dad39c93 >
 </p>
 <br>
+La structure retient toujours la structure 2.
 <h2>
   <h2 align ="center"> Etape 4 : Objectif secondaire
 </h2>
