@@ -95,14 +95,39 @@ Pour ce qui est de la couche qui va nécessiter notre attention, nous avons pris
   <h2 align ="center"> Etape 2 : Profilage sur le FPGA et réalisation de l'IP
 </h2>
 <br>
-Dans un premier temps, nous allons exécuter le code sur ARM. Pour se faire, on va instancier sur Vivado le processeur puis utiliser l'environnement SDK pour développer le code qui sera utilisé sur le processeur. Ensuite, nous afficherons le résultat reconnu par la structure sur des LEDS. Nous utiliserons ici la carte ZedBoard comprenant le FPGA Zynq7000. Le code se trouve dans ce repository. L'exécution et compilation du code nous permet d'avoir le résulat précédemment observé:
+Dans un premier temps, nous allons exécuter le code sur ARM. Pour se faire, on va instancier sur Vivado le processeur puis utiliser l'environnement SDK pour développer le code qui sera utilisé sur le processeur. Ensuite, nous afficherons le résultat reconnu par la structure sur des LEDS. Nous utiliserons ici la carte ZedBoard comprenant le FPGA Zynq7000. Le code se trouve dans ce repository. 
+<br>
+Les étapes à sa suivre pour arriver à SDK sont les suivantes:
+  - Créer un diagramme block, qui sera vide au départ.
+  
+  - Ajouter le composant Zynq
+  
+  - Sélectionner ensuite le GPIO (l'API matériel à mettre dans le FPGA pour contrôler nos sorties numériques)
+  
+  - Cliquer sur l'option Block Automation qui permet de faire les branchements entre nos composants ajoutés précédemment.
+  
+  - Choisir nos LEDS à mettre en sortie
+  
+  - Valider le design 
+  
+  - Générer le HDL Wrapper (permet de traduire le block design en un fichier source que peut compreendre Vivado)
+  
+  - Générer output products (permet de générer le produit (soit simulation, design,...)
+  
+  - Cliquer sur Generate Bitstream pour faire la synthèse, le mapping et routing (connexion) dans le FPGA et enfin l'implémentation.
+  
+  -Cliquer sur Export puis Export Hardware et cocher l'option include Bitstream
+  
+  -Enfin Cliquer sur File puis lancer SDK (il convient de noter que pour les nouvelles versions, il s'agit de Vitis et que nous sommes sur une ancienne version de vivado)
+<br>  
+L'exécution et compilation du code nous permet d'avoir le résulat précédemment observé dans SDK:
 <br>
 <br>
 <p>
  <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/5b7e5c97-cce2-48d6-8e0f-fc5f3eb550a0 >
 </p>
 <br> 
- On va ensuite afficher le résultat sur les leds. On peut effectuer cela grâce à deux fonctions : XGPIO_Initialize qui permet d'initialiser l'IP (à mettre dans le main) puis le XGPIO_SetWrite qui permet d'écrire le résultat indexmax(résultat reconnu par la structure) sur les leds. Nous visualisons le résultat suivant dans SDK:
+ On va ensuite afficher le résultat sur les leds. On peut effectuer cela grâce à deux fonctions : XGPIO_Initialize qui permet d'initialiser l'IP (à mettre dans le main) puis le XGPIO_SetWrite qui permet d'écrire le résultat indexmax(résultat reconnu par la structure) sur les leds. Nous visualisons le résultat :
 <br>
 <p>
  <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/aa19a386-61d0-433d-90bf-8e5268d4870b >
