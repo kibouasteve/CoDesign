@@ -110,7 +110,7 @@ Les étapes à sa suivre pour arriver à SDK sont les suivantes:
   
   - Valider le design 
   
-  - Générer le HDL Wrapper (permet de traduire le block design en un fichier source que peut compreendre Vivado)
+  - Générer le HDL Wrapper (permet de traduire le block design en un fichier source que peut comprendre Vivado)
   
   - Générer output products (permet de générer le produit (soit simulation, design,...)
   
