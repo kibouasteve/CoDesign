@@ -79,7 +79,7 @@ On obtient comme résultat:
   <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/40ca7fdb-ae20-4c61-ac23-78dcea659854>
 </p>
 <br> 
-L'ordinateur utilisé est assez rapide, ce qui explique ces temps nuls(chaque membre de notre binôme ayant un ordinateur, on a testé et obtenu des résultats différents: l'un layer2 et l'autre l'autre layer3).
+L'ordinateur utilisé est assez rapide, ce qui explique ces temps nuls. Chaque membre de notre binôme ayant un ordinateur, on a testé et obtenu des résultats différents: l'un layer2 et l'autre l'autre layer3 (cela est d'autant plus logique vu la taille des Layers 2 et 3 dans ce projet)
  
 La fonction dtime, utilisé d'ailleurs nous permet d'observer ce résultat. dtime fonctionne comme un chronomètre et nous assure d'avoir le temps à un instant donné. Après quelques modifications du code main, on obtient ces résultats après souvent plusieurs simulations:
 <br>
@@ -88,7 +88,7 @@ La fonction dtime, utilisé d'ailleurs nous permet d'observer ce résultat. dtim
   <img src=https://github.com/kibouasteve/CoDesign/assets/71629695/34fa8c8b-d955-41e0-a42c-ce1c016a3154 width = 200 height=200 >
 </p>
 <br> 
-  
+Pour ce qui est de la couche qui va nécessier notre attention, nous avons pris la couche 2.
 <br> 
   
 <h2>
