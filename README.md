@@ -233,6 +233,14 @@ C'est que va entrer en jeu les directives (HLS pragma) qui permettent d'optimise
  <img src=https://github.com/kibouasteve/CoDesign/assets/71629695/54b9da96-9c33-4963-a0c0-5fd5cbe96e90>
 </p>
 <br> 
+L'utilisation de la BRAM passe de 109%  à 102% (Malgré les combinaisons pour répartir les couches entre BRAM et LUTROM, on arrive pas à faire plus de 2%). On a alors quelques suggestions pour palier à ce problème:
   
+  - Diviser le tableau Layer3_Weights_CPU en 5 tableaux pour faire directement faire la somme dans la boucle for permettant le calculateLayer4.
+  
+  - Penser à réduire la tab_tanh de taille(changer le pas de 1/1000 à 1/100)
+  
+  - Ne pas oublier de rechercher des moyens d'optimiser le code
+  
+Quoi qu'il en soit, il existe une multitude de pistes à explorer qui peuvent nous permettent d'améliorer ce travail déjà effectuer.
 <br>
 
