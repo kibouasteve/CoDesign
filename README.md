@@ -210,7 +210,7 @@ On obtient en simulation les résultats suivants:
 Grâce à ce code, on va générer 8354 valeurs avec des sommes allant de 0 et pour un part 1/1000. Pourquoi 8354? Parce que la formule nous permet de majorer entre 0 et 1.759. Comme en témoigne ce tracé.
 <br>
 <p>
- <img src=https://github.com/kibouasteve/CoDesign/assets/71629695/b74dcd3f-1b09-4d4b-9219-7d15d095c739>
+ <img src=https://github.com/kibouasteve/CoDesign/assets/71629695/550282ff-7dd6-4dc2-b02e-b974d92a8b64>
 </p>
 <br>  
 <br>  
