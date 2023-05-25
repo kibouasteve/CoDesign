@@ -186,4 +186,26 @@ La structure retient toujours la structure 2.
   <h2 align ="center"> Etape 4 : Objectif secondaire
 </h2>
 <br>
+Pour cette partie, on a essayé de respecter toutes les conditions imposées par l'encadreur. En respectant les mêmes étapes que pour le layer 2, on essaiera cette fois d'implémenter pour tous les autres layers. Voici un exemple d'implémnentation du code:
+<br>
+<p>
+ <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/c99612de-4df2-4bfd-9a10-a147e231c2f6 >
+</p>
+<br>
+  
+On obtient en simulation les résultats suivants:
+<br>
+<p>
+ <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/ef0e2764-1b0a-4702-8dfd-e339fb1ce736>
+</p>
+<br>
+  
+  Le premier constant qui nous frappe est le temps estimé qui ne semble pas respecter nos 10 ns. En allant regarder les schémas blocks dans Vivado(grâce à l'aide de l'encadreur), on va vite se rendre compte du problème car il s'agit de la fonction SIGMOID qui au départ utilise la fonction tanh. Etant appelée plusieurs fois pou le calcul de somme, on a donc un problème de petits temps qui s'ajoutent à la chaîne. On a fait alors ce qui semble intéressant en termes de perspectives: créer un tableau de valeurs pour des sommes de la formule de SIGMOID. On passera pour cela par matlab pour générer ces valeurs. Voici un example du code.
+<br>
+<p>
+ <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/ef0e2764-1b0a-4702-8dfd-e339fb1ce736>
+</p>
+<br>  
+<br>  
+<br>
 
