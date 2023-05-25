@@ -139,7 +139,7 @@ L'exécution et compilation du code nous permet d'avoir le résulat précédemme
   <h2 align ="center"> Etape 3 : High Level Synthesis - HLS
 </h2>
 <br>
-  
+Ici, on va maintenant créer avec Vivado Hls une IP-AXI materielle pour la deuxième couche.
 <h2>
   <h2 align ="center"> Etape 4 : Objectif secondaire
 </h2>
