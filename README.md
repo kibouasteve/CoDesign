@@ -88,7 +88,7 @@ La fonction dtime, utilisé d'ailleurs nous permet d'observer ce résultat. dtim
   <img src=https://github.com/kibouasteve/CoDesign/assets/71629695/34fa8c8b-d955-41e0-a42c-ce1c016a3154 width = 200 height=200 >
 </p>
 <br> 
-Pour ce qui est de la couche qui va nécessier notre attention, nous avons pris la couche 2.
+Pour ce qui est de la couche qui va nécessiter notre attention, nous avons pris la couche 2.
 <br> 
   
 <h2>
@@ -102,8 +102,7 @@ Dans un premier temps, nous allons exécuter le code sur ARM. Pour se faire, on 
  <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/5b7e5c97-cce2-48d6-8e0f-fc5f3eb550a0 >
 </p>
 <br> 
- On va ensuite afficher le résultat sur les leds. On peut effectuer cela grâce à deux fonctions : XGPIO_Initialize qui permet d'initialiser l'IP (à mettre dans le main) puis le XGPIO_SetWrite qui permet d'écrire le résultat indexmax(résultat reconnu par la structure) sur les leds. Nous visualisons le résultat suivant:
-<br>
+ On va ensuite afficher le résultat sur les leds. On peut effectuer cela grâce à deux fonctions : XGPIO_Initialize qui permet d'initialiser l'IP (à mettre dans le main) puis le XGPIO_SetWrite qui permet d'écrire le résultat indexmax(résultat reconnu par la structure) sur les leds. Nous visualisons le résultat suivant dans SDK:
 <br>
 <p>
  <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/aa19a386-61d0-433d-90bf-8e5268d4870b >
