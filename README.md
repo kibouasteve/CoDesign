@@ -98,7 +98,8 @@ Pour ce qui est de la couche qui va nécessiter notre attention, nous avons pris
 Dans un premier temps, nous allons exécuter le code sur ARM. Pour se faire, on va instancier sur Vivado le processeur puis utiliser l'environnement SDK pour développer le code qui sera utilisé sur le processeur. Ensuite, nous afficherons le résultat reconnu par la structure sur des LEDS. Nous utiliserons ici la carte ZedBoard comprenant le FPGA Zynq7000. Le code se trouve dans ce repository. 
 <br>
 Les étapes à sa suivre pour arriver à SDK sont les suivantes:
-  - Créer un diagramme block, qui sera vide au départ.
+  
+  - Créer un diagramme block, qui sera vide au départ
   
   - Ajouter le composant Zynq
   
