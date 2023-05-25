@@ -216,7 +216,7 @@ Grâce à ce code, on va générer 8354 valeurs avec des sommes allant de 0 et p
 On ajoute ces valeurs dans un tableau dans le fichier tab_tanh. On modifie alors SIGMOID pour avoir cette fonction renvoyant vers une valeur du tableau:
 <br>
 <p>
- <img src=https://github.com/kibouasteve/CoDesign/assets/71629695/550282ff-7dd6-4dc2-b02e-b974d92a8b64>
+ <img src=https://github.com/kibouasteve/CoDesign/assets/71629695/b5be0234-3a1a-4adc-acee-e54261cad523>
 </p>
 <br>  
 <br>
