@@ -153,6 +153,17 @@ Dans Project settings, on va cliquer sur synthesis et rajouter notre fichier con
  <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/4d7a90ad-b799-4b5c-97f2-acd6f6570eb6 >
 </p>
 <br>
+On a 23% d'utilistion de LUT(éléments logiques, soit la surface) et 2% de la BRAM. Ces données nous rassurent surtout que le temps d'opération estimé est de de 10,44 ns(12ns).
+
+On va ensuite lancer Run C/RTL Cosimulation puis cliquer sur Export pour exporter l'IP (rappel: si vous êtes sur une version antérieure, prière de mettre l'année de votre ordinateur à 2020 pour pouvoir exporter).
+  
+On va ensuite rajouter l'IP générer dans le projet Vivado (cette fois-ci et non Vivado HLS) en allant dans les paramètres du projet puis dans ceux de l'IP (repository) et rajouter le dossier impl qui est généré à l'issu de l'étape précédente. Cela va ajouter notre IP et on va ensuite suivre les mêmes  étapes pour à SDK. Cela devrait ressembler à ça au final:
+<br>
+<br>
+<p>
+ <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/4d7a90ad-b799-4b5c-97f2-acd6f6570eb6 >
+</p>
+<br>
 <h2>
   <h2 align ="center"> Etape 4 : Objectif secondaire
 </h2>
