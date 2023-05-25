@@ -102,7 +102,13 @@ Dans un premier temps, nous allons exécuter le code sur ARM. Pour se faire, on 
  <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/5b7e5c97-cce2-48d6-8e0f-fc5f3eb550a0 >
 </p>
 <br> 
-  
+ On va ensuite afficher le résultat sur les leds. On peut effectuer cela grâce à deux fonctions : XGPIO_Initialize qui permet d'initialiser l'IP (à mettre dans le main) puis le XGPIO_SetWrite qui permet d'écrire le résultat indexmax(résultat reconnu par la structure) sur les leds. Nous visualisons le résultat suivant:
+<br>
+<br>
+<p>
+ <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/5b7e5c97-cce2-48d6-8e0f-fc5f3eb550a0 >
+</p>
+<br>   
 <h2>
   <h2 align ="center"> Etape 3 : High Level Synthesis - HLS
 </h2>
