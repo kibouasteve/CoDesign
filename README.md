@@ -130,6 +130,7 @@ L'exécution et compilation du code nous permet d'avoir le résulat précédemme
 <br> 
  On va ensuite afficher le résultat sur les leds. On peut effectuer cela grâce à deux fonctions : XGPIO_Initialize qui permet d'initialiser l'IP (à mettre dans le main) puis le XGPIO_SetWrite qui permet d'écrire le résultat indexmax(résultat reconnu par la structure) sur les leds. Nous visualisons le résultat :
 <br>
+<br>
 <p>
  <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/aa19a386-61d0-433d-90bf-8e5268d4870b >
 </p>
