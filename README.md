@@ -164,6 +164,25 @@ On va ensuite rajouter l'IP générer dans le projet Vivado (cette fois-ci et no
  <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/319874a9-ad56-47bc-a9b1-d11bc358d0e7 >
 </p>
 <br>
+On va ensuite lancer SDK et faire les modifications nécessaires. On aura à utiliser les fonctions:
+  
+  - XCalculateLayer2_Initialize pour initialiser l'IP à son adresse
+  
+  - XCalculateLayer2_Write pour instancialiser le poids et le nombre de neurones.
+  
+  - XCalculateLayer2_Start pour démarrer les calculs
+  
+  - XCalculateLayer2_IsDone qui permet de savoir si les calculs sont finis (à utiliser comme dans la boucle while)
+  
+  - XCalculateLayer2_Read pour lire les valeurs à l'issue du calcul
+  
+On obtient ceci:
+<br>
+<br>
+<p>
+ <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/130039f7-93b1-4af8-9398-9e36dad39c93 >
+</p>
+<br>
 <h2>
   <h2 align ="center"> Etape 4 : Objectif secondaire
 </h2>
