@@ -219,5 +219,20 @@ On ajoute ces valeurs dans un tableau dans le fichier tab_tanh. On modifie alors
  <img src=https://github.com/kibouasteve/CoDesign/assets/71629695/b5be0234-3a1a-4adc-acee-e54261cad523>
 </p>
 <br>  
+  
+Après modification du code, on se rend compte que le nombre de BRAM est limité et donc on prend plus que ce que ne peut recevoir cette dernière.
+
+<br>
+<p>
+ <img src=https://github.com/kibouasteve/CoDesign/assets/71629695/692c34b0-cb0e-45ef-af5f-09ed8b995052>
+</p>
+<br>  
+C'est que va entrer en jeu les directives (HLS pragma) qui permettent d'optimiser notre code. Notre BRAM étant trop rempli mais la LUTROM disposant d'espace, on se propose donc de rajouter les poids d'une ou plusieurs couches dans cette dernière. On aura alors:
+<br>
+<p>
+ <img src=https://github.com/kibouasteve/CoDesign/assets/71629695/692c34b0-cb0e-45ef-af5f-09ed8b995052>
+</p>
+<br> 
+  
 <br>
 
