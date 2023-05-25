@@ -106,7 +106,7 @@ Dans un premier temps, nous allons exécuter le code sur ARM. Pour se faire, on 
 <br>
 <br>
 <p>
- <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/5b7e5c97-cce2-48d6-8e0f-fc5f3eb550a0 >
+ <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/aa19a386-61d0-433d-90bf-8e5268d4870b >
 </p>
 <br>   
 <h2>
