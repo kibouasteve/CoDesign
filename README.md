@@ -161,7 +161,7 @@ On va ensuite rajouter l'IP générer dans le projet Vivado (cette fois-ci et no
 <br>
 <br>
 <p>
- <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/4d7a90ad-b799-4b5c-97f2-acd6f6570eb6 >
+ <img src= https://github.com/kibouasteve/CoDesign/assets/71629695/319874a9-ad56-47bc-a9b1-d11bc358d0e7 >
 </p>
 <br>
 <h2>
