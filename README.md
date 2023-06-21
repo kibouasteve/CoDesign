@@ -229,7 +229,7 @@ Après modification du code, on se rend compte que le nombre de BRAM est limité
  <img src=https://github.com/kibouasteve/CoDesign/assets/71629695/692c34b0-cb0e-45ef-af5f-09ed8b995052>
 </p>
 <br>  
-C'est que va entrer en jeu les directives (HLS pragma) qui permettent d'optimiser notre code. Notre BRAM étant trop rempli mais la LUTROM disposant d'espace, on se propose donc de rajouter les poids d'une ou plusieurs couches dans cette dernière. On aura alors:
+C'est ici que va entrer en jeu les directives (HLS pragma) qui permettent d'optimiser notre code. Notre BRAM étant trop rempli mais la LUTROM disposant d'espace, on se propose donc de rajouter les poids d'une ou plusieurs couches dans cette dernière. On aura alors:
 <br>
 <p>
  <img src=https://github.com/kibouasteve/CoDesign/assets/71629695/54b9da96-9c33-4963-a0c0-5fd5cbe96e90>
@@ -243,6 +243,6 @@ L'utilisation de la BRAM passe de 109%  à 102% (Malgré les combinaisons pour r
   
   - Ne pas oublier de rechercher des moyens d'optimiser le code
   
-Quoi qu'il en soit, il existe une multitude de pistes à explorer qui peuvent nous permettent d'améliorer ce travail déjà effectuer.
+Quoi qu'il en soit, il existe une multitude de pistes à explorer qui peuvent nous permettent d'améliorer ce travail déjà effectué.
 <br>
 
